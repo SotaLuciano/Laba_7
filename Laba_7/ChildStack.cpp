@@ -2,7 +2,7 @@
 
 
 
-ChildStack::ChildStack(): stack()
+ChildStack::ChildStack() : stack()
 {
 }
 

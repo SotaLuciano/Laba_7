@@ -147,12 +147,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="ChildStack.h" />
+    <ClInclude Include="CopyFileWithRenumber.h" />
     <ClInclude Include="Header.h" />
+    <ClInclude Include="Stream.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ChildStack.cpp" />
+    <ClCompile Include="CopyFileWithRenumber.cpp" />
     <ClCompile Include="functions.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Stream.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt" />
