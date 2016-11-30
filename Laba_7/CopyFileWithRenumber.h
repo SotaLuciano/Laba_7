@@ -1,6 +1,5 @@
 #pragma once
 #include "Header.h"
-#include "ChildStack.h"
 #include "Stream.h"
 
 class CopyFileWithRenumber

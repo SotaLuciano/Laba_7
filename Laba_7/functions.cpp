@@ -1,5 +1,4 @@
 #include "Header.h"
-#include "ChildStack.h"
 #include "Stream.h"
 
 void LoadFileToStek(Stack & MyStack, string name, string road)

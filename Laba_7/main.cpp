@@ -52,6 +52,6 @@ void main()
 		MyCopy.Set_File_Name();
 		MyCopy.Copy_File();
 	}
-	else cout << "Error 405, wrong enter!";
+	else cout << "Error 405, wrong enter!" << endl;
 	_getch();
 }
