@@ -1,5 +1,6 @@
 #include"Header.h"
-#include "CopyFileWithRenumber.h"
+#include "CopyFileWithRenumber.h"'
+#include "ChildStack.h"
 
 void main()
 {
@@ -12,7 +13,7 @@ void main()
 	{
 		LinePrint();
 
-		stack<string> MyStack;
+		ChildStack MyStack;
 
 		// Print list of all files in directory
 		ListofFiles();
@@ -29,8 +30,8 @@ void main()
 			cout << endl;
 			LinePrint();
 			cout << endl;
-			LoadFileToStek(MyStack, name, road);
-			Purge(MyStack);
+			MyStack.LoadFileToStek(name, road);
+			MyStack.Purge();
 			LinePrint();
 			cout << "\nDo u want to open another file from this directory? Y/N: ";
 			cin >> choise;

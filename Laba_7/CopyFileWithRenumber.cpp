@@ -7,13 +7,13 @@ void CopyFileWithRenumber::Copy_File()
 
 	ofstream isc(copyname, ios::app);
 
-	stack<string> MyStack;
+	ChildStack MyStack;
 
 	string road = "D:\\Visual Studio\\Visual Studio C++ Projects\\Laba_7\\Laba_7\\";
 
-	LoadFileToStek(MyStack, file_name, road);
+	MyStack.LoadFileToStek(file_name, road);
 
-	ReverseStack(MyStack);
+	MyStack.ReverseStack();
 
 	while (!MyStack.empty())
 	{
